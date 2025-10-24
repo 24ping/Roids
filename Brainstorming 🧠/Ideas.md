@@ -5,11 +5,6 @@
 
 # Automating Job Applications with n8n + Browser Automation
 
-**Short answer:** Yes — but only reliably with a browser-automation step outside n8n (e.g., **Playwright**, **Puppeteer**, or an **Apify actor**).  
-Most ATS (Lever, Greenhouse, Workday) use CSRF tokens, file uploads, and anti-bot protections, so a plain HTTP node will not work.
-
----
-
 ## How to Set It Up (n8n + Browser Automation)
 
 ### 1. Scrape & Clean (you already have this)
